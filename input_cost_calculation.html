@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="flex_header">
+                <a href="#"><img src="./img/orange_arrow.svg" alt=""></a>
+                <p>Расчет стоимости</p>
+                <div class="width_header"></div>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="container" style="padding-bottom: 30px;">
+            <div class="center_form1">
+                <div class="red_name">
+                    <div class="red_left"></div>
+                    <p>Тип предложения</p>
+                </div>
+                <form class="radio">
+                    <div id="flex_lap">
+                    <label>
+                        <input type="radio" id="price" name="contact">
+                        <p>Стандарт</p>
+                    </label>
+                    <label>
+                        <input type="radio" id="value" name="contact">
+                        <p>Премиум</p>
+                    </label>
+                    <label>
+                        <input type="radio" id="performer" name="contact">
+                        <p>Еще не решил</p>
+                    </label>
+                </div>
+                    <div class="red_name">
+                        <div class="red_left"></div>
+                        <p>Бюджет и даты</p>
+                    </div>
+                    <div class="new_input">
+                        <label class="room">
+                            <p>Бюджет</p>
+                            <input type="text" name="budget">
+                        </label>
+                        <label class="room">
+                            <p>Желаемая дата начала работ</p>
+                            <input type="date" name="date" id="date_calen">
+                        </label>
+                    </div>
+                    <div class="red_name">
+                        <div class="red_left"></div>
+                        <p>Локация</p>
+                    </div>
+                    <div class="new_input">
+                    <label class="room">
+                        <p>Город</p>
+                        <input type="text" id="city" name="budget">
+                    </label>
+                    <label class="room">
+                        <p>Адрес</p>
+                        <input type="text" name="date" >
+                    </label>
+                    <label class="room">
+                        <p>Почтовый индекс</p>
+                        <input type="number" id="post" name="date">
+                    </label>
+                </div>
+                    <div class="red_name">
+                        <div class="red_left"></div>
+                        <p>Фото объекта</p>
+                    </div>
+                    <p class="main_text text_loc">Если у вас есть план объекта или фото, прикрепите его к завке</p>
+                    <input type="button" value="Прикрепить фото" class="btn_black btn_red frm_btn">
+                    <div class="red_name">
+                        <div class="red_left"></div>
+                        <p>Информация</p>
+                    </div>
+                    <p class="main_text text_loc">Опишите ваши пожелания или дополнительную информацию, которую считаете
+                        важной, о вашем объекте</p>
+                    <textarea class="textarea" name="" id=""></textarea>
+                    <input type="button" value="Оформить" class="btn_black frm_btn">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="link_bottom">
+                <a href="#"><img src="img/information.svg" alt=""></a>
+                <a href="#"><img src="img/gray_statistics.svg" alt=""></a>
+                <a href="#"><img src="img/gray_calendar.svg" alt=""></a>
+                <a href="#"><img src="img/bel_ red.svg" alt=""></a>
+                <a href="#"><img class="img_bottom" src="img/1_92ab665e.jpg" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

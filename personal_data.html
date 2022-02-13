@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+    <link href="./js/jQueryFormStyler-master/dist/jquery.formstyler.css" rel="stylesheet" />
+    <link href="./js/jQueryFormStyler-master/dist/jquery.formstyler.theme.css" rel="stylesheet" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/jQueryFormStyler-master/dist/jquery.formstyler.min.js"></script>
+    <script src="./js/jQueryFormStyler-master/dist/jquery.formstyler.js"></script>
+    <script src="./js/jquery.maskedinput.min.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            $("#tel").mask("+8(999) 999-9999");
+            $('select').styler();
+        })
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="flex_header">
+                <a href="#"><img src="./img/orange_arrow.svg" alt=""></a>
+                <p>Личные данные</p>
+                <a href="#"><img src="./img/save.svg" alt=""></a>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="content">
+        <div class="container">
+            <div class="center_form">
+                <div class="avatar">
+                    <img src="./img/1_92ab665e.jpg" alt="">
+                </div>
+                <form class="form" action="" method="post">
+                    <label>
+                        <p>Имя</p>
+                        <input type="text" name="user_name">
+                    </label>
+                   <label>
+                        <p>Фамилия</p>
+                        <input type="text" name="user_surname">
+                    </label>
+                    <label>
+                        <p>Контактный телефон</p>
+                        <input type="tel" id="tel" name="user_phone">
+                    </label>
+                    <label for="email">
+                        <p>E-mail</p>
+                        <input type="email" name="user_email">
+                    </label>
+                    <div class="form_flex">
+                        <div>
+                            <label for="phone">Пол</label>
+                            <select>
+                                <option>Женский</option>
+                                <option>Мужской</option>
+                            </select>
+                        </div>
+                        <div class="form_left">
+                            <label>
+                                <p>Возраст</p>
+                                <input type="number" name="user_email">
+                            </label>
+                        </div>
+                    </div>
+                    <label>
+                        <p>Город</p>
+                        <input type="text" name="user_address">
+                    </label>
+                    <label>
+                        <p>Адрес</p>
+                        <input type="text" name="user_address">
+                    </label>
+                    <label>
+                        <p>Почтовый индекс</p>
+                        <input type="number" name="user_index">
+                    </label>
+                    <input class="btn_black" type="button" value="Сменить пароль">
+                </form>
+                
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="link_bottom">
+                <a href="#"><img src="img/information.svg" alt=""></a>
+                <a href="#"><img src="img/gray_statistics.svg" alt=""></a>
+                <a href="#"><img src="img/gray_calendar.svg" alt=""></a>
+                <a href="#"><img src="img/bel_ red.svg" alt=""></a>
+                <a href="#"><img class="img_bottom" src="img/1_92ab665e.jpg" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
